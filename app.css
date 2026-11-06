@@ -1,0 +1,61 @@
+body {
+    font-family: sans-serif;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+body.dark-mode {
+    background-color: #222;
+    color: #fff;
+}
+
+#config-panel {
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    display: inline-block;
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+body.dark-mode #config-panel {
+    border-color: #555;
+}
+
+#config-panel label {
+    display: inline-block;
+    margin-bottom: 5px;
+}
+
+#config-panel input[type="range"] {
+    width: 200px;
+    vertical-align: middle;
+}
+
+#game-area {
+    width: 500px;
+    height: 500px;
+    position: relative;
+    background-color: #f0f0f0;
+    border: 2px solid #000;
+    transition: background-color 0.3s;
+}
+
+body.dark-mode #game-area {
+    background-color: #333;
+    border-color: #fff;
+}
+
+.character {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+}
+
+#player {
+    background-color: blue;
+}
+
+#beyonce {
+    background-image: url('beyonSEX.png');
+    background-size: cover;
+}
